@@ -21,15 +21,12 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- Other dependencies as needed -->
-        <!-- Example: -->
-        <!--
+        <!-- Jenkins Workflow plugin dependency -->
         <dependency>
-            <groupId>org.kohsuke.github</groupId>
-            <artifactId>github-api</artifactId>
-            <version>1.123</version>
+            <groupId>org.jenkins-ci.plugins</groupId>
+            <artifactId>workflow-job</artifactId>
+            <version>2.40</version>
         </dependency>
-        -->
     </dependencies>
 
     <build>
